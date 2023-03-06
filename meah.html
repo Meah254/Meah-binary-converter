@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary converter</title>
+    <link rel="stylesheet" href="css/meah.css">
+</head>
+<body style="position: relative;">
+    <header>
+        <p>Binary</p>
+        <p>Calculator</p>
+    </header>
+    <section id="section1">
+    <h1 id="h1">Binary converter</h1>
+    <div id="converter">
+        <div class="decimal">
+            <label for="decimal">Decimal</label>
+            <br>
+            <input type="number" min="0" value="" id="decimal" placeholder="0">
+        </div>
+        <div class="binary">
+            <label for="binary">Binary</label>
+            <br>
+            <input type="number" value="" id="binary" placeholder="0">
+        </div>
+    </div>
+    </section>
+    <section id="section2">
+        <h1>Calculator</h1>
+        <div id="calculator">
+            <div id="input"><p id="prob" placeholder="0"></p></div>
+            <div id="output"><p id="sol" placeholder="0"></p></div>
+            <div id="nums">
+                <button id="del">Del</button>
+                <button value="1">1</button>
+                <button value="2">2</button>
+                <button value="3">3</button>
+                <button value="+">+</button>
+                <button id="equate">=</button>
+            </div>
+            <div id="nums">
+                <button value="sol.innerHTML" id="ans">ANS</button>
+                <button value="4">4</button>
+                <button value="5">5</button>
+                <button value="6">6</button>
+                <button value="-">-</button>
+                <button value="(" style="width: 7.5%;">(</button>
+                <button value=")" style="width: 7.5%;">)</button>
+            <div id="nums">
+                <button value="sqrt">Sqrt</button>
+                <button value="7">7</button>
+                <button value="8">8</button>
+                <button value="9">9</button>
+                <button value="*">*</button>
+                <button style="width: 7.5%;" value=".">.</button>
+                <button style="width: 7.5%;" value="^">^</button>
+            </div>
+            <div id="nums">
+                <select id="dropdown">
+                    <option value="log">Log</option>
+                    <option value="antilog">Antilog</option>
+                    <option value="reciprocal">Reciprocal</option>
+                    <option value="sin">Sin</option>
+                    <option value="coc">Cos</option>
+                    <option value="tan">Tan</option>
+                </select>
+                <button value="" id="ac">Ac</button>
+                <button value="0">0</button>
+                <button value="/">/</button>
+            </div>
+
+        </div>
+    </section>
+</body>
+<script src="js/meah.js"></script>
+</html>
